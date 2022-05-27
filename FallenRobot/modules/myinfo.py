@@ -16,11 +16,11 @@ from FallenRobot import dispatcher
 
 
 edit_time = 5
-""" =======================FALLEN ROBOT====================== """
+""" =======================MISHA ROBOT====================== """
 file1 = "https://te.legra.ph/file/9fe11108a0a51a416976e.jpg"
 file2 = "https://te.legra.ph/file/3cc638e5688f518f3bf82.jpg"
 file3 = "https://te.legra.ph/file/cbe00611c9e493a91225f.jpg"
-""" =======================FALLEN ROBOT====================== """
+""" =======================MISHA ROBOT====================== """
 
 
 @register(pattern="/myinfo")
@@ -63,7 +63,7 @@ async def callback_query_handler(event):
   try:
     boy = event.sender_id
     PRO = await bot.get_entity(boy)
-    LILIE = "POWERED BY 𝗛𝘂𝘀𝗯𝗮𝗻𝗱𝗼 \n\n"
+    LILIE = "POWERED BY Zoro \n\n"
     LILIE += f"FIRST NAME : {PRO.first_name} \n"
     LILIE += f"LAST NAME : {PRO.last_name}\n"
     LILIE += f"YOU BOT : {PRO.bot} \n"
